@@ -5,6 +5,8 @@ from image_match.goldberg import ImageSignature
 import json
 import os
 import sys
+reload(sys)
+sys.setdefaultencoding('utf8')
 
 # =============================================================================
 # Globals
